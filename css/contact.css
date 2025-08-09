@@ -1,0 +1,122 @@
+:root {
+  --black-color: rgb(69, 69, 69);
+}
+
+.contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("/images/slideS-01.jpg") no-repeat center center;
+  background-size: cover;
+  height: 239px;
+}
+
+.contact-section h2 {
+  font-size: 50px;
+  font-weight: 500;
+  color: white;
+}
+
+.content .row {
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.form-content {
+  border: 1px solid #ddd;
+  height: 100%;
+  /* padding: 20px 30px; */
+}
+
+.contact-info {
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 100px;
+}
+
+.contact-info span {
+  color: #333;
+  font-size: 19px;
+}
+
+.contact-info span svg {
+  color: #afacac;
+  font-size: 19px;
+}
+
+.contact-info .text span {
+  color: var(--black-color);
+}
+
+.contact-info .text p {
+  padding-top: 20px;
+  max-width: 250px;
+  color: #52d681;
+  font-size: 15px;
+}
+
+.contact-info .address-info p {
+  color: #888;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+input {
+  border: none;
+  margin-left: 5px;
+  background-color: transparent;
+}
+
+.input-info {
+  border: 1px solid #ddd;
+  padding: 10px 30px;
+  width: 70%;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+textarea {
+  height: 200px;
+  padding: 10px 30px;
+  border: 1px solid #ddd;
+  width: 70%;
+  background-color: transparent;
+}
+
+::placeholder {
+  font-size: 14px;
+  height: 50px;
+  color: var(--black-color);
+}
+
+.contact-info svg {
+  color: #777;
+}
+
+.form-content button {
+  padding: 15px 18px;
+  border: none;
+  border-radius: 50px;
+  background-color: #222;
+  color: white;
+  transition: all 0.4s linear;
+  width: 70%;
+}
+
+.form-content button:hover {
+  background-color: #52d681;
+}
+
+form h4 {
+  color: var(--black-color);
+}
+
+/*  */

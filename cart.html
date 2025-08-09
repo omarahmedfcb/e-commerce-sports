@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Features</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/cart.css" />
+    <link rel="stylesheet" href="css/ecommerce.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="loader"></div>
+    <div class="top-bar txt-center">
+      <div
+        class="content-topbar d-flex align-items-center container text-white-50 h-full py-1"
+      >
+        <div class="left-top-bar">
+          Free shipping for standard order over $100
+        </div>
+        <div class="content-topbar containe d-flex ms-auto h-full">
+          <ul
+            class="topbar-nav list-unstyled d-flex justify-content-evenly mb-2 mb-lg-0"
+          >
+            <li class="nav-item">
+              <a class="nav-link py-1" href="#">Help & FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-1" href="#">My Account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-1" href="#">EN</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link py-1" href="#">USD</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><b>Fresh</b>Turf</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav mb-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="./home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="./Shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 hot" href="./cart.html">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#">blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar-myIcons">
+            <li>
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-magnifying-glass p-2"></i
+              ></a>
+            </li>
+            <li>
+              <a class="nav-link shoppingNum" href="#" data-cart="cart"
+                ><i class="fas fa-cart-shopping p-2 cart"></i><span></span
+              ></a>
+            </li>
+            <li>
+              <a class="nav-link" href="#"
+                ><i class="fa-regular fa-heart p-2"></i
+              ></a>
+            </li>
+            <li>
+              <a class="nav-link darkIcon" href="#"
+                ><i class="fa-solid fa-moon p-2"></i
+              ></a>
+            </li>
+            <li>
+              <a class="nav-link lightIcon" href="#"
+                ><i class="fa-solid fa-sun p-2"></i
+              ></a>
+            </li>
+            <li>
+              <a class="nav-link logIn" href="#">Log In</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-8">
+          <div class="cart-bought">
+            <div class="head-cart">
+              <div class="row">
+                <h3 class="col-4">Product</h3>
+                <h3 class="col-3">Price</h3>
+                <h3 class="col-3">Quantity</h3>
+                <h3 class="col-2">Total</h3>
+              </div>
+            </div>
+            <div class="bought-items">
+              <div class="item-cart">
+                <div class="col-4 product">
+                  <img src="./imgs/item-cart-05.jpg" alt="" />
+                  <p>Light Weight</p>
+                </div>
+                <div class="col-3 price">$ <span>16</span></div>
+                <div class="col-3 quantity">
+                  <button data-cost="minus">
+                    <i class="fa-solid fa-minus"></i>
+                  </button>
+                  <div>3</div>
+                  <button data-cost="plus">
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
+                </div>
+                <div class="col-2 total">$ <span></span></div>
+              </div>
+            </div>
+            <div class="foot-cart">
+              <div class="coupon">
+                <input type="text" name="" id="" placeholder="Coupon Code" />
+                <a href="" class="but but-grey">APPLY COUPON</a>
+              </div>
+              <a href="" class="but but-grey">UPDATE CART</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 cart-total">
+          <h3>CART TOTALS</h3>
+          <div class="subtotal">
+            <p>SUBTOTAL:</p>
+            <p>$<span></span></p>
+          </div>
+          <div class="shipping">
+            <p>shipping</p>
+            <div class="shipping-cakc">
+              <p>
+                There are no shipping methods available. Please double check
+                your address, or contact us if you need any help.
+              </p>
+              <p>CALCULATE SHIPPING</p>
+              <input type="text" id="ship" />
+              <a href="#" data-update="update" class="but but-grey"
+                >UPDATE TOTAL</a
+              >
+            </div>
+          </div>
+          <div class="bigTotal">
+            <p>TOTAL:</p>
+            <p>$<span></span></p>
+          </div>
+          <a href="" class="but but-black-2 checkoutNow">PROCEED TO CHECKOUT</a>
+        </div>
+      </div>
+    </div>
+
+    <!--Cart-->
+    <div class="cart-background">
+      <div class="cart-content">
+        <div class="cart-head">
+          <h3>YOUR CART</h3>
+          <button data-close="close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="cart-items">
+          <div class="item" data-template="true">
+            <img src="./imgs/item-cart-01.jpg" alt="" />
+            <div class="paragraph">
+              <div class="item-name">white</div>
+              <div class="number">
+                <div class="cost">
+                  <span class="num">2</span>x $<span class="much">13.01</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p>Total : $<span class="totalMuch"></span></p>
+          <div class="cart-buttons">
+            <a href="./cart.html" target="_self" class="but but-black"
+              >VIEW CART</a
+            >
+            <a href="#" class="but but-black checkout">CHECKOUT</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer pt-5 pb-5 text-white-50 text-md-start">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <div class="links">
+                <h6 class="text-light my-2">CATEGORIES</h6>
+                <ul class="list-unstyled lh-lg mb-auto mb-2 mb-lg-0">
+                  <li>
+                    <a class="nav-link" href="#">Fitness</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#">Outdoors</a>
+                  </li>
+                  <li><a class="nav-link" href="#">Footwear</a></li>
+                  <li><a class="nav-link" href="#">Accessories</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="links">
+                <h6 class="text-light my-2">HELP</h6>
+                <ul class="list-unstyled lh-lg mb-auto mb-2 mb-lg-0">
+                  <li>
+                    <a class="nav-link" href="#">Trace Order</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#">Returns</a>
+                  </li>
+                  <li><a class="nav-link" href="#">Shipping</a></li>
+                  <li><a class="nav-link" href="#">FAQs</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="contact">
+                <h6 class="text-light my-2">GET IN TOUCH</h6>
+                <p class="address col-ms-6 col-lg-3 d-flex">
+                  Any questions? Let us know in store at ITI, Al-abadia,
+                  Damanhour,Behera or call us on (+02) 100637
+                </p>
+                <ul class="d-flex list-unstyled mt-16 gap-2">
+                  <li>
+                    <a class="lin d-block text-light" href="#">
+                      <i class="fa-brands fa-facebook-f rounded-circle p-2"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="lin d-block text-light" href="#">
+                      <i class="fa-brands fa-instagram rounded-circle p-2"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="lin d-block text-light" href="#">
+                      <i
+                        class="fa-brands fa-pinterest-p rounded-circle p-2"
+                      ></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+              <div class="links">
+                <h6 class="text-light my-2">NEWSLETTER</h6>
+                <form>
+                  <input
+                    class="emailin"
+                    type="text"
+                    placeholder="examble@gmail.com"
+                  />
+                  <div class="button">
+                    <button class="btn">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards d-flex justify-content-center">
+            <a href="#"><img src="./images/icon-pay-01.png.webp" alt="" /></a>
+            <a href="#"><img src="./images/icon-pay-02.png.webp" alt="" /></a>
+            <a href="#"><img src="./images/icon-pay-03.png.webp" alt="" /></a>
+            <a href="#"><img src="./images/icon-pay-04.png.webp" alt="" /></a>
+            <a href="#"><img src="./images/icon-pay-05.png.webp" alt="" /></a>
+          </div>
+
+          <div class=" ">
+            <p class="Copyright text-center">
+              Copyright © 2025 All rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/cart.js"></script>
+  </body>
+</html>

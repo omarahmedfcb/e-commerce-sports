@@ -1,0 +1,65 @@
+
+:root{
+    --black-color:#888;
+    --white-color:#fff;
+}
+
+.darkMode {
+  background-color: rgb(69, 69, 69);
+  --white-color: rgb(69, 69, 69);
+  --black-color: white;
+}
+
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('/images/bg-01.jpg') no-repeat center center;
+    background-size: cover;
+    height: 239px;
+
+}
+
+.about-section h2 {
+    font-size: 50px;
+    font-weight: 500;
+    color: var(--white-color);
+
+}
+
+
+.cont-1 p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.9;
+    color: var(--black-color);
+    padding-bottom: 10px;
+    max-width: 750px;
+    
+}
+
+
+.cont-2 img , .cont-1 img {
+    width:100%;
+    transition: all 0.4s linear;
+}
+
+.cont-2:hover img {
+    transform: scale(1.1);
+}
+
+.second {
+    padding-right: 100px;
+}
+
+.special {
+    padding-left: 50px;
+    border-left: 3px solid var(--black-color);
+}
+
+.special span{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black-color);
+}

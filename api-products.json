@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "image": "https://m.media-amazon.com/images/I/51iGutTfYQL._AC_SL1500_.jpg",
+    "image2": "https://m.media-amazon.com/images/I/71I9+OVt27L._AC_SL1500_.jpg",
+    "image3": "https://m.media-amazon.com/images/I/51ZSx-0wD-L._AC_SL1500_.jpg",
+    "description": "Eco-friendly Yoga Mat",
+    "price": 25.99,
+    "icon": "https://preview.colorlib.com/theme/cozastore/images/icons/icon-heart-01.png",
+    "category": "fitness"
+  },
+  {
+    "id": 2,
+    "image": "https://m.media-amazon.com/images/I/61dcEV+VWhL._AC_SL1378_.jpg",
+    "image2": "https://m.media-amazon.com/images/I/71kZHqgJkLL._AC_SL1394_.jpg",
+    "image3": "https://m.media-amazon.com/images/I/61EeyFkv4NL._AC_SL1500_.jpg",
+    "description": "Set of Resistance Bands",
+    "price": 18.5,
+    "icon": "https://preview.colorlib.com/theme/cozastore/images/icons/icon-heart-01.png",
+    "category": "fitness"
+  },
+  {
+    "id": 3,
+    "image": "https://m.media-amazon.com/images/I/41Y1Jq+BxaL._AC_.jpg",
+    "image2": "https://m.media-amazon.com/images/I/5138hrErqAL._AC_.jpg",
+    "image3": "https://m.media-amazon.com/images/I/51COtdOQsSL._AC_.jpg",
+    "description": "All-Terrain Mountain Bike",
+    "price": 450.0,
+    "icon": "https://preview.colorlib.com/theme/cozastore/images/icons/icon-heart-01.png",
+    "category": "cycling"
+  },
+  {
+    "id": 4,
+    "image": "https://m.media-amazon.com/images/I/7130TNMAnYL._AC_SL1500_.jpg",
+    "image2": "https://m.media-amazon.com/images/I/81W1iD9RVjL._AC_SL1500_.jpg",
+    "image3": "https://m.media-amazon.com/images/I/81hrkoRaXwL._AC_SL1500_.jpg",
+    "description": "Official Size Basketball",
+    "price": 29.99,
+    "icon": "https://preview.colorlib.com/theme/cozastore/images/icons/icon-heart-01.png",
+    "category": "sports"
+  },
+  {
+    "id": 5,
+    "image": "https://m.media-amazon.com/images/I/71bUqVw+fEL._AC_SL1500_.jpg",
+    "image2": "https://m.media-amazon.com/images/I/619KSBo1jdL._AC_SL1500_.jpg",
+    "image3": "https://m.media-amazon.com/images/I/71wF5cMrfOL._AC_SL1500_.jpg",
+    "description": "Fitness Tracker Watch",
+    "price": 99.99,
+    "icon": "https://preview.colorlib.com/theme/cozastore/images/icons/icon-heart-01.png",
+    "category": "wearables"
+  },
+  {
+    "id": 6,
+    "image": "https://m.media-amazon.com/images/I/61RNBcQZwoL._AC_SL1500_.jpg",
+    "image2": "https://m.media-amazon.com/images/I/71PQPWxEuqL._AC_SL1500_.jpg",
+    "image3": "https://m.media-amazon.com/images/I/71k1paC3twL._AC_SL1500_.jpg",
+    "description": "Lightweight Tennis Racket",
+    "price": 120.0,
+    "icon": "https://preview.colorlib.com/theme/cozastore/images/icons/icon-heart-01.png",
+    "category": "sports"
+  },
+  {
+    "id": 7,
+    "image": "https://m.media-amazon.com/images/I/61n-cSVQ1lL._AC_SL1024_.jpg",
+    "image2": "https://m.media-amazon.com/images/I/61eNgPI+LtL._AC_SL1500_.jpg",
+    "image3": "https://m.media-amazon.com/images/I/71GfjhmBFTL._AC_SL1500_.jpg",
+    "description": "Professional Boxing Gloves",
+    "price": 45.0,
+    "icon": "https://preview.colorlib.com/theme/cozastore/images/icons/icon-heart-01.png",
+    "category": "sports"
+  },
+  {
+    "id": 8,
+    "image": "https://m.media-amazon.com/images/I/51uf7jwozmL._AC_SL1000_.jpg",
+    "image2": "https://m.media-amazon.com/images/I/61W+9MQq2ZL._AC_SL1000_.jpg",
+    "image3": "https://m.media-amazon.com/images/I/61fkzMSJ8oL._AC_SL1000_.jpg",
+    "description": "Muscle Foam Roller",
+    "price": 20.0,
+    "icon": "https://preview.colorlib.com/theme/cozastore/images/icons/icon-heart-01.png",
+    "category": "recovery"
+  },
+  {
+    "id": 9,
+    "image": "https://m.media-amazon.com/images/I/81ItzHK1yeL._AC_SX625_.jpg",
+    "image2": "https://m.media-amazon.com/images/I/61MrlvrWO2L._AC_SY625_.jpg",
+    "image3": "https://m.media-amazon.com/images/I/61nqi52AqpL._AC_SY625_.jpg",
+    "description": "Lightweight Running Shoes",
+    "price": 75.0,
+    "icon": "https://preview.colorlib.com/theme/cozastore/images/icons/icon-heart-01.png",
+    "category": "footwear"
+  },
+  {
+    "id": 10,
+    "image": "https://m.media-amazon.com/images/I/61GV8JskpvL._AC_SL1500_.jpg",
+    "image2": "https://m.media-amazon.com/images/I/71BgT8eg-4L._AC_SL1500_.jpg",
+    "image3": "https://m.media-amazon.com/images/I/71rh1eJYA0L._AC_SL1500_.jpg",
+    "description": "4-Person Camping Tent",
+    "price": 150.0,
+    "icon": "https://preview.colorlib.com/theme/cozastore/images/icons/icon-heart-01.png",
+    "category": "outdoor"
+  },
+  {
+    "id": 11,
+    "image": "https://m.media-amazon.com/images/I/714-tAUpjqL._AC_SL1500_.jpg",
+    "image2": "https://m.media-amazon.com/images/I/71YsCkWHCgL._AC_SL1500_.jpg",
+    "image3": "https://m.media-amazon.com/images/I/81z99ffez-L._AC_SL1500_.jpg",
+    "description": "Adjustable Speed Jump Rope",
+    "price": 15.0,
+    "icon": "https://preview.colorlib.com/theme/cozastore/images/icons/icon-heart-01.png",
+    "category": "fitness"
+  },
+  {
+    "id": 12,
+    "image": "https://m.media-amazon.com/images/I/61bN49sChGL._AC_SL1500_.jpg",
+    "image2": "https://m.media-amazon.com/images/I/61G+uJO13zL._AC_SL1500_.jpg",
+    "image3": "https://m.media-amazon.com/images/I/61MBPADyEaL._AC_SL1500_.jpg",
+    "description": "Waterproof Hiking Backpack",
+    "price": 80.0,
+    "icon": "https://preview.colorlib.com/theme/cozastore/images/icons/icon-heart-01.png",
+    "category": "outdoor"
+  },
+  {
+    "id": 13,
+    "image": "https://m.media-amazon.com/images/I/712UTNQtM9L._AC_SL1500_.jpg",
+    "image2": "https://m.media-amazon.com/images/I/61yoJVxhyKL._AC_SL1500_.jpg",
+    "image3": "https://m.media-amazon.com/images/I/61BP771r0kL._AC_SL1500_.jpg",
+    "description": "Inflatable Paddleboard",
+    "price": 300.0,
+    "icon": "https://preview.colorlib.com/theme/cozastore/images/icons/icon-heart-01.png",
+    "category": "sports"
+  },
+  {
+    "id": 14,
+    "image": "https://m.media-amazon.com/images/I/71KOlbNl9hL._AC_SL1500_.jpg",
+    "image2": "https://m.media-amazon.com/images/I/71dnms1HvjL._AC_SL1500_.jpg",
+    "image3": "https://m.media-amazon.com/images/I/71XpRxsfK-L._AC_SL1500_.jpg",
+    "description": "Beginner Golf Club Set",
+    "price": 220.0,
+    "icon": "https://preview.colorlib.com/theme/cozastore/images/icons/icon-heart-01.png",
+    "category": "golf"
+  },
+  {
+    "id": 15,
+    "image": "https://m.media-amazon.com/images/I/71qOFdRab-L._AC_SL1500_.jpg",
+    "image2": "https://m.media-amazon.com/images/I/71bHzKIaT4L._AC_SL1500_.jpg",
+    "image3": "https://m.media-amazon.com/images/I/61Yb59ZIqIL._AC_SL1500_.jpg",
+    "description": "Aerodynamic Cycling Helmet",
+    "price": 60.0,
+    "icon": "https://preview.colorlib.com/theme/cozastore/images/icons/icon-heart-01.png",
+    "category": "cycling"
+  },
+  {
+    "id": 16,
+    "image": "https://m.media-amazon.com/images/I/61COIWg3grL._AC_SL1280_.jpg",
+    "image2": "https://m.media-amazon.com/images/I/61vsIUgwTAL._AC_SL1280_.jpg",
+    "image3": "https://m.media-amazon.com/images/I/71mncXPyXgL._AC_SL1280_.jpg",
+    "description": "Set of Adjustable Dumbbells",
+    "price": 130.0,
+    "icon": "https://preview.colorlib.com/theme/cozastore/images/icons/icon-heart-01.png",
+    "category": "fitness"
+  }
+]

@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce Project</title>
+    <link rel="icon" href="images/logo-01.png.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/ecommerce.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- <button id="darkMode">dark mode</button> -->
+    <div class="loader"></div>
+    <div class="top-bar txt-center">
+      <div
+        class="content-topbar d-flex align-items-center container text-white-50 h-full py-1"
+      >
+        <div class="left-top-bar">
+          Free shipping for standard order over $100
+        </div>
+        <div class="content-topbar containe d-flex ms-auto h-full">
+          <ul
+            class="topbar-nav list-unstyled d-flex justify-content-evenly mb-2 mb-lg-0"
+          >
+            <li class="nav-item">
+              <a class="nav-link py-1" href="#">Help & FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-1" href="#">My Account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-1" href="#">EN</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link py-1" href="#">USD</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><b>Fresh</b>Turf</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav mb-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="./home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="./Shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 hot" href="./cart.html">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#">blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar-myIcons">
+            <li>
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-magnifying-glass p-2"></i
+              ></a>
+            </li>
+            <li>
+              <a class="nav-link shoppingNum" href="#" data-cart="cart"
+                ><i class="fas fa-cart-shopping p-2 cart"></i><span></span
+              ></a>
+            </li>
+            <li>
+              <a class="nav-link shoppingNum" href="#"
+                ><i class="fa-regular fa-heart p-2"></i
+              ></a>
+            </li>
+            <li>
+              <a class="nav-link darkIcon" href="#"
+                ><i class="fa-solid fa-moon p-2"></i
+              ></a>
+            </li>
+            <li>
+              <a class="nav-link lightIcon" href="#"
+                ><i class="fa-solid fa-sun p-2"></i
+              ></a>
+            </li>
+            <li>
+              <a class="nav-link logIn" href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Cart-->
+    <div class="cart-background">
+      <div class="cart-content">
+        <div class="cart-head">
+          <h3>YOUR CART</h3>
+          <button data-close="close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="cart-items">
+          <div class="item" data-template="true">
+            <img src="./imgs/item-cart-01.jpg" alt="" />
+            <div class="paragraph">
+              <div class="item-name">white</div>
+              <div class="number">
+                <div class="cost">
+                  <span class="num">2</span>x $<span class="much">13.01</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p>Total : $<span class="totalMuch"></span></p>
+          <div class="cart-buttons">
+            <a href="./cart.html" target="_self" class="but but-black"
+              >VIEW CART</a
+            >
+            <a href="#" class="but but-black checkout">CHECKOUT</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slider Section  -->
+
+    <div class="mean mean-1">
+      <div class="mean-contents">
+        <h3>Women's Activewear</h3>
+        <h1>NEW SEASON</h1>
+        <a href="#" class="but but-pink but-animated">SHOP NOW</a>
+      </div>
+    </div>
+    <div class="mean mean-2">
+      <div class="mean-contents">
+        <h3>Men's Sportswear</h3>
+        <h1>NEW ARRIVALS</h1>
+        <a href="#" class="but but-pink but-animated">SHOP NOW</a>
+      </div>
+    </div>
+    <!--Hidden elements-->
+    <div class="slider">
+      <div class="slider-container">
+        <div class="mean mean-0">
+          <div class="mean-contents">
+            <h3>Pro Training Gear</h3>
+            <h1>Train in Style</h1>
+            <a href="#" class="but but-pink but-animated">SHOP NOW</a>
+          </div>
+        </div>
+        <button data-slider="prev">
+          <div></div>
+        </button>
+        <button data-slider="next">
+          <div></div>
+        </button>
+      </div>
+    </div>
+
+    <!-- Banner Section  -->
+    <div class="banner py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 mb-4 test">
+            <div class="card">
+              <img src="./images/fitness.png" alt="" />
+              <div class="card-info">
+                <span class="fw-bold fs-2">Fitness</span>
+                <span class="d-block">Gear Up</span>
+              </div>
+              <a href="#items" class="fw-bold text-uppercase">Shop Now</a>
+              <span class="shop-line"></span>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img src="./images/sports.png" alt="" />
+              <div class="card-info">
+                <span class="fw-bold fs-2">Sports</span>
+                <span class="d-block">Game On</span>
+              </div>
+              <a href="#items" class="fw-bold text-uppercase">Shop Now</a>
+              <span class="shop-line"></span>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img src="./images/accessories.png" alt="" />
+              <div class="card-info">
+                <span class="fw-bold fs-2">Accessories</span>
+                <span class="d-block">Essentials</span>
+              </div>
+              <a href="#items" class="fw-bold text-uppercase">Shop Now</a>
+              <span class="shop-line"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Products Section -->
+    <div class="our-products py-5">
+      <div class="container" id="items">
+        <h1 class="text-uppercase fs-1 fw-bold">Product Overview</h1>
+        <div class="row">
+          <div
+            class="filterItems d-lg-flex justify-content-between align-items-center col-lg-12"
+          >
+            <div class="d-flex productsNamesBtn">
+              <button class="active" data-product=".all">All Products</button>
+              <button class="" data-product=".fitness">fitness</button>
+              <button class="" data-product=".sports">sports</button>
+              <button class="" data-product=".outdoor">outdoor</button>
+              <button class="" data-product=".cycling">cycling</button>
+              <button class="" data-product=".footwear">footwear</button>
+              <button class="" data-product=".recovery">recovery</button>
+              <button class="" data-product=".golf">golf</button>
+            </div>
+
+            <div class="d-flex gap-2 filterBtns mt-3 d-sm-block d-md-flex">
+              <button class="">
+                <i class="fa-solid fa-sm fa-bars-staggered"></i>
+                <span class="ms-1"> Filter</span>
+              </button>
+              <button class="searchBtn">
+                <i class="fa-solid fa-sm fa-magnifying-glass"></i>
+                <span class="ms-1">Search</span>
+              </button>
+              <div class="searchBar">
+                <i class="fa-solid fa-sm fa-magnifying-glass"></i>
+                <input type="text" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-4 items"></div>
+        <button
+          class="d-block m-auto px-5 py-2 fs-6 border-0 text-uppercase mt-3 rounded-pill fw-normal loadBtn"
+        >
+          load more
+        </button>
+      </div>
+    </div>
+
+    <button
+      class="btn-to-top rounded-3 b-0 bg-red px-3 py-1 border-0 fs-3 fw-bold"
+    >
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <footer>
+      <div class="footer pt-5 pb-5 text-white-50 text-md-start">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <div class="links">
+                <h6 class="text-light my-2">CATEGORIES</h6>
+                <ul class="list-unstyled lh-lg mb-auto mb-2 mb-lg-0">
+                  <li>
+                    <a class="nav-link" href="#">Fitness</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#">Outdoors</a>
+                  </li>
+                  <li><a class="nav-link" href="#">Footwear</a></li>
+                  <li><a class="nav-link" href="#">Accessories</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="links">
+                <h6 class="text-light my-2">HELP</h6>
+                <ul class="list-unstyled lh-lg mb-auto mb-2 mb-lg-0">
+                  <li>
+                    <a class="nav-link" href="#">Trace Order</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#">Returns</a>
+                  </li>
+                  <li><a class="nav-link" href="#">Shipping</a></li>
+                  <li><a class="nav-link" href="#">FAQs</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="contact">
+                <h6 class="text-light my-2">GET IN TOUCH</h6>
+                <p class="address col-ms-6 col-lg-3 d-flex">
+                  Any questions? Let us know in store at ITI, Al-abadia,
+                  Damanhour,Behera or call us on (+02) 100637
+                </p>
+                <ul class="d-flex list-unstyled mt-16 gap-2">
+                  <li>
+                    <a class="lin d-block text-light" href="#">
+                      <i class="fa-brands fa-facebook-f rounded-circle p-2"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="lin d-block text-light" href="#">
+                      <i class="fa-brands fa-instagram rounded-circle p-2"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="lin d-block text-light" href="#">
+                      <i
+                        class="fa-brands fa-pinterest-p rounded-circle p-2"
+                      ></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+              <div class="links">
+                <h6 class="text-light my-2">NEWSLETTER</h6>
+                <form>
+                  <input
+                    class="emailin"
+                    type="text"
+                    placeholder="examble@gmail.com"
+                  />
+                  <div class="button">
+                    <button class="btn">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards d-flex justify-content-center">
+            <a href="#"><img src="./images/icon-pay-01.png.webp" alt="" /></a>
+            <a href="#"><img src="./images/icon-pay-02.png.webp" alt="" /></a>
+            <a href="#"><img src="./images/icon-pay-03.png.webp" alt="" /></a>
+            <a href="#"><img src="./images/icon-pay-04.png.webp" alt="" /></a>
+            <a href="#"><img src="./images/icon-pay-05.png.webp" alt="" /></a>
+          </div>
+
+          <div class=" ">
+            <p class="Copyright text-center">
+              Copyright © 2025 All rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Product Details -->
+    <div class="details hidden-details-back">
+      <section class="p-5 my-5 hidden-details-main">
+        <div class="container">
+          <div class="row">
+            <!-- Product Images Carousel -->
+            <div class="col-md-6">
+              <div
+                id="productCarousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="images/product-detail-01.jpg.webp"
+                      class="d-block w-100 det-img-1"
+                      alt="Product Image 1"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/product-detail-02.jpg.webp"
+                      class="d-block w-100"
+                      alt="Product Image 2"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/product-detail-03.jpg.webp"
+                      class="d-block w-100"
+                      alt="Product Image 3"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#productCarousel"
+                  data-bs-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#productCarousel"
+                  data-bs-slide="next"
+                >
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+
+              <div
+                class="mt-3 d-flex justify-content-center gap-2 hoverer mini-items"
+              >
+                <img
+                  src="images/product-detail-01.jpg.webp"
+                  class="img-thumbnail"
+                  style="width: 60px; cursor: pointer"
+                  onclick="goToSlider(0)"
+                />
+                <img
+                  src="images/product-detail-02.jpg.webp"
+                  class="img-thumbnail"
+                  style="width: 60px; cursor: pointer"
+                  onclick="goToSlider(1)"
+                />
+                <img
+                  src="images/product-detail-03.jpg.webp"
+                  class="img-thumbnail"
+                  style="width: 60px; cursor: pointer"
+                  onclick="goToSlider(2)"
+                />
+              </div>
+            </div>
+
+            <!-- Modal for Image Zoom -->
+            <div
+              class="modal fade"
+              id="imageModal"
+              tabindex="-1"
+              aria-labelledby="imageModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content bg-transparent border-0">
+                  <div class="modal-body text-center p-0">
+                    <img
+                      id="modalImage"
+                      src=""
+                      class="img-fluid rounded"
+                      alt="Zoomed Product Image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product Details -->
+            <div class="col-md-6">
+              <h4 class="mb-3 product-name-pop">Lightweight Jacket</h4>
+              <h5 class="text-primary mb-3">
+                $ <span class="product-price-pop">58.79</span>
+              </h5>
+              <p class="mb-4">
+                Nulla eget sem vitae eros pharetra viverra. Nam vitae luctus
+                ligula. Mauris consequat ornare feugiat.
+              </p>
+
+              <!-- Quantity and Add to Cart -->
+              <div class="d-flex align-items-center mb-4">
+                <div class="input-group me-3" style="width: 120px">
+                  <button
+                    class="btn btn-outline-secondary"
+                    type="button"
+                    data-cost="minusDetails"
+                  >
+                    -
+                  </button>
+                  <div
+                    class="content d-flex align-items-center justify-content-center number_style"
+                  >
+                    <span class="num">1</span>
+                  </div>
+                  <button
+                    class="btn btn-outline-secondary"
+                    type="button"
+                    data-cost="plusDetails"
+                  >
+                    +
+                  </button>
+                </div>
+                <button data-add="cart" class="btn btn-primary">
+                  Add to Cart
+                </button>
+              </div>
+
+              <!-- Wishlist and Share Buttons -->
+              <div class="d-flex social">
+                <a
+                  href="#"
+                  class="btn btn-outline-secondary me-2"
+                  title="Add to Wishlist"
+                >
+                  <i class="fa-solid fa-heart fs-5"></i>
+                </a>
+                <a
+                  href="#"
+                  class="btn btn-outline-secondary me-2"
+                  title="Share on Facebook"
+                >
+                  <i class="fa-brands fa-facebook-f fs-5"></i>
+                </a>
+                <a
+                  href="#"
+                  class="btn btn-outline-secondary me-2"
+                  title="Share on Twitter"
+                >
+                  <i class="fa-brands fa-twitter fs-5"></i>
+                </a>
+                <a
+                  href="#"
+                  class="btn btn-outline-secondary"
+                  title="Share on Google"
+                >
+                  <i class="fa-brands fa-google-plus-g fs-5"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="close-details"><i class="fa-solid fa-xmark"></i></button>
+      </section>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js" defer></script>
+    <script src="./js/popupdetails.js"></script>
+  </body>
+</html>
