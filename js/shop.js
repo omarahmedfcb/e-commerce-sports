@@ -114,7 +114,7 @@ function getBasePath() {
   const isLocalhost =
     window.location.hostname === "127.0.0.1" ||
     window.location.hostname === "localhost";
-  const repoName = "E-commerce-project";
+  const repoName = "e-commerce-sports";
 
   return isLocalhost ? "/" : `/${repoName}/`;
 }
