@@ -569,7 +569,9 @@ svg:hover {
   transition: all 0.4s linear;
   position: relative;
 }
-
+.productsNamesBtn {
+  flex-wrap: wrap;
+}
 .filterItems .productsNamesBtn .active::after {
   content: "";
   position: absolute;
